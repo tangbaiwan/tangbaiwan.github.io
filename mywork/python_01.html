@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://python.iswbm.com/c01/c01_02.html -->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+    .utterances {
+      position: relative;
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 760px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .utterances-frame {
+      color-scheme: light;
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 1px;
+      min-width: 100%;
+      max-width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>1.2 【环境】Python 开发环境的搭建 — Python中文指南 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script src="./python_01_files/hm.js.下载"></script><script type="text/javascript" src="./python_01_files/modernizr.min.js.下载"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="./python_01_files/documentation_options.js.下载"></script>
+        <script type="text/javascript" src="./python_01_files/jquery.js.下载"></script>
+        <script type="text/javascript" src="./python_01_files/underscore.js.下载"></script>
+        <script type="text/javascript" src="./python_01_files/doctools.js.下载"></script>
+        <script type="text/javascript" src="./python_01_files/language_data.js.下载"></script>
+        <script type="text/javascript" src="./python_01_files/readmore.js.下载"></script><style type="text/css">#btw-footer{opacity:0!important;visibility:hidden!important;margin:0!important}</style>
+        <script type="text/javascript" src="./python_01_files/baidutongji.js.下载"></script>
+    
+    <script type="text/javascript" src="./python_01_files/theme.js.下载"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="./python_01_files/theme.css" type="text/css">
+  <link rel="stylesheet" href="./python_01_files/pygments.css" type="text/css">
+    <link rel="index" title="Index" href="https://python.iswbm.com/genindex.html">
+    <link rel="search" title="Search" href="https://python.iswbm.com/search.html">
+    <link rel="next" title="1.3 【基础】两种运行 Python 程序方法" href="https://python.iswbm.com/c01/c01_03.html">
+    <link rel="prev" title="1.1 【环境】快速安装 Python 解释器" href="https://python.iswbm.com/c01/c01_01.html"> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="https://python.iswbm.com/index.html" class="icon icon-home"> Python中文指南
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="https://python.iswbm.com/search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+
+
+
+
+
+
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/preface.html">前言</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="https://python.iswbm.com/chapters/p01.html"><span class="toctree-expand"></span>第一章：安装运行</a><ul class="">
+<li class="toctree-l2"><a class="reference internal" href="https://python.iswbm.com/c01/c01_01.html">1.1 【环境】快速安装 Python 解释器</a></li>
+<li class="toctree-l2 current"><a class="reference internal current" href="https://python.iswbm.com/c01/c01_02.html#"><span class="toctree-expand"></span>1.2 【环境】Python 开发环境的搭建</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="https://python.iswbm.com/c01/c01_02.html#id1">1. 下载链接</a></li>
+<li class="toctree-l3"><a class="reference internal" href="https://python.iswbm.com/c01/c01_02.html#id2">2. 安装步骤</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="https://python.iswbm.com/c01/c01_03.html">1.3 【基础】两种运行 Python 程序方法</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/chapters/p02.html">第二章：数据类型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/chapters/p03.html">第三章：数据结构</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/chapters/p04.html">第四章：控制流程</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/chapters/p05.html">第五章：学习函数</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/chapters/p06.html">第六章：错误异常</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/chapters/p07.html">第七章：类与对象</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/chapters/p08.html">第八章：包与模块</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/chapters/p09.html">第九章：调试技巧</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/chapters/p10.html">第十章：并发编程</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/chapters/p11.html">第十一章：代码美化</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/chapters/p12.html">第十二章：虚拟环境</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/chapters/p13.html">第十三章：绝佳工具</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/aboutme.html">关于作者</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://python.iswbm.com/roadmap.html">Roadmap</a></li>
+</ul>
+
+
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+
+      <nav class="wy-nav-top" aria-label="top navigation">
+
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="https://python.iswbm.com/index.html">Python中文指南</a>
+
+      </nav>
+
+
+      <div class="wy-nav-content">
+
+        <div class="rst-content" id="container777" style="position: relative; height: 5826.6px; overflow: hidden;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="/index.html">Home</a> »</li>
+
+          <li><a href="https://python.iswbm.com/chapters/p01.html">第一章：安装运行</a> »</li>
+        
+      <li>1.2 【环境】Python 开发环境的搭建</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="https://python.iswbm.com/_sources/c01/c01_02.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="python">
+<h1>1.2 【环境】Python 开发环境的搭建<a class="headerlink" href="https://python.iswbm.com/c01/c01_02.html#python" title="Permalink to this headline">¶</a></h1>
+<p>理论上只需要你安装了 CPython 解释器后，就可以开始写 Python
+代码了。为了让你的在写代码时，有一个更加友好的编码体验。就有人开发了一堆的编辑器。</p>
+<p>这些编辑器，具有代码高亮，代码提示自动补全的各种功能，如果没有这些编辑器，我想你没两天就会放弃编程这条路了。</p>
+<p>因此在开始学习使用 Python 写代码时，首先要教大家搭建一个舒适的开发环境。</p>
+<p>在这里我推荐大家使用 PyCharm
+这个软件，它不只是一个简单编辑器，而是一个由 Jetbrain 公司为 Python
+专门开发的 Python 语言集成开发环境。</p>
+<p>也许你还不知道 Jetbrain ，我来简要介绍一下，Jetbrain 是一家专业的 IDE
+（Integrated Development Environment
+）生产商，只要是市面上主流的编程语言，Jetbrain 都有相应的产品。</p>
+<p>比如：Python 对应 PyCharm ，Golang 对应 Goland，Java 对应 IntelliJ
+IDEA，C 语言对应 Clion 等等。</p>
+<p>在这些众多的 IDE 中，有一些提供了多种版本：<code class="docutils literal notranslate"><span class="pre">教育版</span></code>、<code class="docutils literal notranslate"><span class="pre">社区版</span></code>
+和 <code class="docutils literal notranslate"><span class="pre">专业版</span></code>。</p>
+<blockquote>
+<div><p>PyCharm Edu is based on PyCharm Community Edition and comprises all
+its features, making it just perfectly suitable for writing
+professional projects with Python.</p>
+</div></blockquote>
+<p>教育版：教育版是免费的，具备社区版的所有功能，除此之外，还提供有一个教学功能，因此它更适合学生。老师可以用它创建教学，学生可以通过他完成教学任务。</p>
+<p>社区版：就是阉割版的专业版，它也是免费的，如果你并不需要使用专业版才有那些功能，可以选择社区版。</p>
+<p>专业版：提供所有 PyCharm 的功能，虽然是收费的，但是可以试用一个月。</p>
+<p>社区版和专业版在功能上有哪些区别呢？你可以看下面这个表格。</p>
+<p>可以看出专业版比社区版多了
+<code class="docutils literal notranslate"><span class="pre">科学工具</span></code>、<code class="docutils literal notranslate"><span class="pre">WEB</span> <span class="pre">开发</span></code>、<code class="docutils literal notranslate"><span class="pre">Python</span> <span class="pre">Web</span> <span class="pre">框架</span></code>、<code class="docutils literal notranslate"><span class="pre">Python</span> <span class="pre">代码分析</span></code>、<code class="docutils literal notranslate"><span class="pre">远程开发调试</span></code>、<code class="docutils literal notranslate"><span class="pre">数据库支持</span></code>。</p>
+<img alt="http://image.iswbm.com/20190506150523.png" src="./python_01_files/20190506150523.png">
+<p>社区版的功能有限，有些非常好用的功能只有专业版才有，比如 远程调试。</p>
+<p>如果你想使用到专业版，那有什么办法呢？</p>
+<ol class="arabic simple">
+<li><p>有钱的就是大爷，付费购买。</p></li>
+<li><p>穷人自有穷活法，每次试用一个月，试用期到，卸载干净，再来一次。</p></li>
+<li><p>利用学生与教师的特权，可申请免费使用</p></li>
+<li><p>若你有开源项目，也可以申请免费使用</p></li>
+<li><p>用一些 <code class="docutils literal notranslate"><span class="pre">非寻常手段</span></code> （也就是破解）来实现。</p></li>
+</ol>
+<p>破解的方法，其实还分很多种：</p>
+<ol class="arabic simple">
+<li><p>可以使用注册服务器的方式，优点是非常方便，缺点是过一段时间就有可能失效，不稳定。</p></li>
+<li><p>还可以使用破解补丁的方式，优点是永久破解（使用期限到 2099 或者
+2100年，某种意义上算是永久了），缺点是对于最新版的 PyCharm
+你可能找不到相应的破解补丁。如果要使用这种方法，就意味着你得使用旧版的
+PyCharm 。</p></li>
+<li><p>使用绿色免安装的 PyCharm
+安装包，其实原理和第二种一样，这一种只是别人帮你破解好，你直接用而已。只适用于
+Windows 。</p></li>
+</ol>
+<p>那么这么多版本，该怎么选择呢？</p>
+<p>一般来说：</p>
+<ul class="simple">
+<li><p>如果你是学生，那么可以直接向 Jetbrain 免费申请专业版。</p></li>
+<li><p>如果你是新手，直接安装社区版就行了，功能已经够用了。</p></li>
+<li><p>如果你想使用更多好用的 专业版功能，那么花钱去购买吧。</p></li>
+</ul>
+<p>如果你暂时付不起购买费用，可以加下面微信，我这有
+<code class="docutils literal notranslate"><span class="pre">绿色免安装的专业版</span></code>，对，就是那种连安装都不用安装的 专业版。</p>
+<img alt="http://image.iswbm.com/image-20201218210141865.png" src="./python_01_files/image-20201218210141865.png">
+<div class="section" id="id1">
+<h2>1. 下载链接<a class="headerlink" href="https://python.iswbm.com/c01/c01_02.html#id1" title="Permalink to this headline">¶</a></h2>
+<p>PyCharm for Windows
+：<a class="reference external" href="https://www.jetbrains.com/pycharm/download/#section=windows">https://www.jetbrains.com/pycharm/download/#section=windows</a></p>
+<p>PyCharm for Mac
+：<a class="reference external" href="https://www.jetbrains.com/pycharm/download/#section=mac">https://www.jetbrains.com/pycharm/download/#section=mac</a></p>
+<p>PyCharm for Linux
+：<a class="reference external" href="https://www.jetbrains.com/pycharm/download/#section=linux">https://www.jetbrains.com/pycharm/download/#section=linux</a></p>
+<img alt="http://image.iswbm.com/20200901213017.png" src="./python_01_files/20200901213017.png">
+</div>
+<div class="section" id="id2">
+<h2>2. 安装步骤<a class="headerlink" href="https://python.iswbm.com/c01/c01_02.html#id2" title="Permalink to this headline">¶</a></h2>
+<p>下载完成后，双击 exe 文件</p>
+<img alt="http://image.iswbm.com/20200901213223.png" src="./python_01_files/20200901213223.png">
+<p>选择安装目录，Pycharm需要的内存较多，建议将其安装在D盘或者E盘，不建议放在系统盘C盘：</p>
+<img alt="http://image.iswbm.com/20200901213310.png" src="./python_01_files/20200901213310.png">
+<p>选好路径后，点击 Next ，创建桌面快捷方式等一系列选项参照下图勾选！</p>
+<img alt="http://image.iswbm.com/20200901213325.png" src="./python_01_files/20200901213325.png">
+<p>最后默认安装即可，直接点击Install。</p>
+<img alt="http://image.iswbm.com/20200901213415.png" src="./python_01_files/20200901213415.png">
+<p>7、耐心的等待两分钟左右。</p>
+<p>之后就会得到下面的安装完成的界面</p>
+<img alt="http://image.iswbm.com/20200901213504.png" src="./python_01_files/20200901213504.png">
+<p>点击Finish，Pycharm安装完成。</p>
+<p>接下来对Pycharm进行配置，双击运行桌面上的Pycharm图标，进入下图界面：</p>
+<img alt="http://image.iswbm.com/20200901213526.png" src="./python_01_files/20200901213526.png">
+<p>选择Do not import settings，之后选择OK，进入下一步。</p>
+<p>下面是选择主题</p>
+<p>-&gt; 这里默认选择黑色(左边黑色,右边白色)</p>
+<p>-&gt; 点击Next:Featured plugins</p>
+<img alt="http://image.iswbm.com/20200901213602.png" src="./python_01_files/20200901213602.png">
+<p>建议选择Darcula主题，该主题更有利于保护眼睛。</p>
+<p>一切配置完成后，就会进入 PyCharm 的主界面。</p>
+<p>首先，点击 <code class="docutils literal notranslate"><span class="pre">View</span></code> -&gt; <code class="docutils literal notranslate"><span class="pre">Appearance</span></code> 勾上
+<code class="docutils literal notranslate"><span class="pre">Toolbar</span></code>，来调出工具栏，个人认为这个工具栏对于新手非常有用，使用频率很高。</p>
+<img alt="http://image.iswbm.com/20201218203225.png" src="./python_01_files/20201218203225.png">
+<p>再然后，应该告诉 PyCharm 你的 CPython 解释器在哪里？不然后面要执行
+Python 代码的时候，都不知道去哪里找。</p>
+<p>点击 <code class="docutils literal notranslate"><span class="pre">File</span></code> -&gt; <code class="docutils literal notranslate"><span class="pre">Settings</span></code> ，就会出现如下界面，在搜索框输入
+<code class="docutils literal notranslate"><span class="pre">interpreter</span></code> ，点击右上角的 <code class="docutils literal notranslate"><span class="pre">Add</span></code></p>
+<img alt="http://image.iswbm.com/20201218203836.png" src="./python_01_files/20201218203836.png">
+<p>跳到如下界面，再选择 <code class="docutils literal notranslate"><span class="pre">System</span> <span class="pre">Interpreter</span></code>
+，然后右边选择你在上一节中安装 CPython 的路径。</p>
+<img alt="http://image.iswbm.com/20201218203632.png" src="./python_01_files/20201218203632.png">
+<p>然后在文件夹下，新建一个 <code class="docutils literal notranslate"><span class="pre">demo.py</span></code>
+的文件，并写入如下代码，然后再点击上面的 <code class="docutils literal notranslate"><span class="pre">Add</span> <span class="pre">Configuration</span></code>
+配置脚本运行的参数</p>
+<img alt="http://image.iswbm.com/20201218204204.png" src="./python_01_files/20201218204204.png">
+<p>接下来，我们要在 PyCharm 中运行这个 <code class="docutils literal notranslate"><span class="pre">demo.py</span></code> 这个脚本了。右键然后选择
+<code class="docutils literal notranslate"><span class="pre">Run</span> <span class="pre">'demo'</span></code> ，或者直接按住快捷键：<code class="docutils literal notranslate"><span class="pre">Ctrl+Shift+F10</span></code></p>
+<img alt="http://image.iswbm.com/image-20201218204355375.png" src="./python_01_files/image-20201218204355375.png">
+<p>运行后，在下面就会弹出一个 <code class="docutils literal notranslate"><span class="pre">Run</span></code> 窗口，你在执行 Python
+脚本时，所有的输出内容，都会出现在这里。</p>
+<img alt="http://image.iswbm.com/image-20201218204718039.png" src="./python_01_files/image-20201218204718039.png">
+<p>至此， PyCharm
+这个非常好用的集成开发环境就配置完成了，后面我们就要正式开始接触代码了。</p>
+<p>另外，关于 PyCharm
+的使用，我花了两个月的时间，整理了一份非常实用且全面的 <a class="reference external" href="https://pycharm.iswbm.com/">《PyCharm
+中文指南》</a>，点击这个链接，即可跳转学习：<a class="reference external" href="https://pycharm.iswbm.com/">https://pycharm.iswbm.com/</a></p>
+<img alt="http://image.iswbm.com/20200901220204.png" src="./python_01_files/20200901220204.png">
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+               <comments>
+  <div class="utterances">
+    <iframe class="utterances-frame" title="Comments" scrolling="no" src="./python_01_files/utterances.html" loading="lazy"></iframe>
+  </div>
+</comments>
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="https://python.iswbm.com/c01/c01_03.html" class="btn btn-neutral float-right" title="1.3 【基础】两种运行 Python 程序方法" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="https://python.iswbm.com/c01/c01_01.html" class="btn btn-neutral float-left" title="1.1 【环境】快速安装 Python 解释器" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr>
+
+  <div role="contentinfo">
+    <p>
+        © Copyright 2020, Python编程时光
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>. 
+
+</footer>
+
+        <div id="read-more-wrap" style="position: absolute; bottom: 0px; z-index: 9999; width: 100%; margin-top: -100px; font-family: PingFangSC-Regular, sans-serif;"><div id="read-more-mask" style="position: relative; height: 200px; background: -webkit-gradient(linear, 0 0%, 0 100%, from(rgba(255, 255, 255, 0)), to(rgb(255, 255, 255)));"></div><a id="read-more-btn" target="_self" style="position: absolute; left: 50%; top: 70%; bottom: 30px; transform: translate(-50%, -50%); width: 160px; height: 36px; line-height: 36px; font-size: 15px; text-align: center; border: 1px solid rgb(222, 104, 109); color: rgb(222, 104, 109); background: rgb(255, 255, 255); cursor: pointer; border-radius: 6px;">阅读全文</a></div></div>
+      </div>
+
+    </section>
+
+  </div>
+  
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Other Versions</span>
+    v: master
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+    <dl>
+      <dt>Branches</dt>
+      <dd><a href="https://python.iswbm.com/c01/c01_02.html">master</a></dd>
+    </dl>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+
+</body></html>
